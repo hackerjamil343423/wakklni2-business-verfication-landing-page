@@ -18,6 +18,20 @@ export default function Portfolio() {
       categories: ["منتج تعليمي", "تدريب", "روحانيات"],
       image: "/images/community-protfolio.png",
       link: "https://community.otoreach.com/"
+    },
+    {
+      id: 3,
+      title: "خدمة اهلانات",
+      categories: ["صفحة مقصودة", "تسويق رقمي", "خدمات"],
+      image: "/images/khidmat-ahlanat.png",
+      link: "https://endearing-daifuku-5f8cde.netlify.app"
+    },
+    {
+      id: 4,
+      title: "صفحة خدمة بناء فانل",
+      categories: ["بناء فانل", "تسويق", "استشارات"],
+      image: "/images/funnel-service.png",
+      link: "https://es.emadcourses.org/"
     }
   ]
 
