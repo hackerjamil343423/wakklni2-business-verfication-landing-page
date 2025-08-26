@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/c:\\Users\\Lenovo\\Desktop/**)",
+      "Bash(npx create-next-app:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop/**)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop\\Landing Page Service\\Images/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop\\Landing Page Service\\Images/**)",
+      "Bash(copy:*)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop\\Landing Page Service\\wakkelni-20250825T141131Z-1-001/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop\\Landing Page Service\\wakkelni-20250825T141131Z-1-001\\wakkelni\\wakelni logo files/**)",
+      "Read(/c:\\Users\\Lenovo\\Desktop\\Landing Page Service\\wakkelni-20250825T141131Z-1-001\\wakkelni\\wakelni logo files/**)",
+      "Bash(npm uninstall:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
