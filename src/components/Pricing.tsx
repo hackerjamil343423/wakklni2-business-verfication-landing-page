@@ -35,7 +35,7 @@ export default function Pricing() {
   ]
 
   return (
-    <section className="py-28 lg:py-36 bg-gradient-to-br from-wakkelni-black via-gray-900 to-wakkelni-black relative overflow-hidden">
+    <section id="pricing" className="py-28 lg:py-36 bg-gradient-to-br from-wakkelni-black via-gray-900 to-wakkelni-black relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-20 right-16 w-32 h-32 bg-wakkelni-purple/5 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 left-16 w-48 h-48 bg-wakkelni-cyan/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -63,12 +63,22 @@ export default function Pricing() {
             
             {/* Price */}
             <div className="text-center mb-8">
+              {/* Previous Price - Crossed Out */}
+              <div className="mb-2">
+                <span className="text-2xl text-gray-500 line-through">كان 750$</span>
+              </div>
+              
               <div className="flex items-center justify-center mb-4">
                 <Check className="w-8 h-8 text-wakkelni-cyan ml-4" />
                 <span className="text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-wakkelni-cyan to-wakkelni-purple bg-clip-text text-transparent">
                   498$
                 </span>
                 <span className="text-2xl text-white mr-4">فقط</span>
+              </div>
+              
+              {/* Savings Badge */}
+              <div className="inline-flex items-center px-4 py-2 bg-green-600/20 border border-green-600/30 rounded-full text-green-400 text-lg font-semibold mb-4">
+                وفر 252$ الآن!
               </div>
               <p className="text-xl text-gray-300 leading-relaxed">
                 مقابل صفحة هبوط كاملة تُبنى خصيصًا لعلامتك، تُسلم خلال 

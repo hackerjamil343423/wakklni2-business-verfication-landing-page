@@ -21,6 +21,7 @@ export default function Header() {
     { label: 'أعمالنا', href: '#portfolio' },
     { label: 'مزايانا', href: '#features' },
     { label: 'طريقة العمل', href: '#process' },
+    { label: 'الأسعار', href: '#pricing' },
     { label: 'من نحن', href: '#founderstory' },
   ]
 
