@@ -67,15 +67,19 @@ export default function Hero() {
           {/* CTA Section */}
           <div className="flex flex-col items-center justify-center gap-8 animate-fade-in-up">
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
-              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 sm:px-12 py-4 sm:py-5 rounded-full font-semibold text-lg sm:text-xl transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center group w-full sm:w-auto">
-                احجز استشارة مجانية
-                <ArrowLeft className="mr-4 w-6 h-6 group-hover:-translate-x-2 transition-transform duration-300" />
-              </button>
+              <a href="/apply">
+                <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 sm:px-12 py-4 sm:py-5 rounded-full font-semibold text-lg sm:text-xl transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center group w-full sm:w-auto">
+                  احجز استشارة مجانية
+                  <ArrowLeft className="mr-4 w-6 h-6 group-hover:-translate-x-2 transition-transform duration-300" />
+                </button>
+              </a>
               
-              <button className="border border-wakkelni-cyan/50 text-wakkelni-cyan px-8 sm:px-10 py-4 sm:py-5 rounded-full font-semibold text-lg sm:text-xl hover:bg-wakkelni-cyan/10 transition-all duration-300 inline-flex items-center group w-full sm:w-auto">
-                شاهد عينات العمل
-                <ArrowLeft className="mr-4 w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-              </button>
+              <a href="#portfolio">
+                <button className="border border-wakkelni-cyan/50 text-wakkelni-cyan px-8 sm:px-10 py-4 sm:py-5 rounded-full font-semibold text-lg sm:text-xl hover:bg-wakkelni-cyan/10 transition-all duration-300 inline-flex items-center group w-full sm:w-auto">
+                  شاهد عينات العمل
+                  <ArrowLeft className="mr-4 w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
+                </button>
+              </a>
             </div>
             
             <p className="text-gray-500 text-lg font-light" style={{ letterSpacing: '0.5px' }}>

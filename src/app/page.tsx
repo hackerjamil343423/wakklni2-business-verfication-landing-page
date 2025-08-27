@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Portfolio from '@/components/Portfolio'
 import Features from '@/components/Features'
 import Process from '@/components/Process'
+import Pricing from '@/components/Pricing'
 import Comparison from '@/components/Comparison'
 import FounderStory from '@/components/FounderStory'
 import FAQ from '@/components/FAQ'
@@ -16,6 +17,7 @@ export default function Home() {
       <Portfolio />
       <Features />
       <Process />
+      <Pricing />
       <Comparison />
       <FounderStory />
       <FAQ />

@@ -132,9 +132,11 @@ export default function Process() {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-            ابدأ عملية الـ7 أيام الآن
-          </button>
+          <a href="/apply">
+            <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
+              ابدأ عملية الـ7 أيام الآن
+            </button>
+          </a>
         </div>
 
       </div>
