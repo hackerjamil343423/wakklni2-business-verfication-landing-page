@@ -1,6 +1,7 @@
 'use client'
 
 import { ArrowUpLeft } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Portfolio() {
 
@@ -8,30 +9,38 @@ export default function Portfolio() {
     {
       id: 1,
       title: "وكالة الأتمتة",
+      slug: "automation-agency",
       categories: ["منتج تعليمي", "علامة تجارية شخصية", "استشارات"],
       image: "/images/Automation Agency-portfolio.png",
-      link: "https://otoreach.com/"
+      fullImage: "/images/portfolio/أوتو ريتش - بناء وكالات رقمية تعمل بالأتمتة.png",
+      description: "وكالة متخصصة في بناء الأتمتة الرقمية وتطوير الحلول التقنية المتقدمة للشركات والمؤسسات"
     },
     {
       id: 2,
       title: "منصة المجتمع",
+      slug: "community-platform",
       categories: ["منتج تعليمي", "تدريب", "روحانيات"],
       image: "/images/community-protfolio.png",
-      link: "https://community.otoreach.com/"
+      fullImage: "/images/portfolio/[community.otoreach.com].png",
+      description: "منصة تفاعلية للمجتمع تهدف إلى ربط الأفراد وتقديم المحتوى التعليمي والتدريبي المتميز"
     },
     {
       id: 3,
-      title: "خدمة اهلانات",
+      title: "خدمة اعلانات",
+      slug: "advertising-service",
       categories: ["صفحة مقصودة", "تسويق رقمي", "خدمات"],
       image: "/images/khidmat-ahlanat.png",
-      link: "https://endearing-daifuku-5f8cde.netlify.app"
+      fullImage: "/images/portfolio/خدمة اعلانات.png",
+      description: "خدمة متخصصة في إدارة الحملات الإعلانية الرقمية وتحسين الأداء التسويقي للعلامات التجارية"
     },
     {
       id: 4,
-      title: "صفحة خدمة بناء فانل",
+      title: "سيستم طباعة الأموال",
+      slug: "money-printing-system",
       categories: ["بناء فانل", "تسويق", "استشارات"],
       image: "/images/funnel-service.png",
-      link: "https://es.emadcourses.org/"
+      fullImage: "/images/portfolio/سيستم طباعة الأموال - تحقيق 12 ألف دولار خلال 3 أشهر.png",
+      description: "نظام متقدم لبناء القمع التسويقي وتحقيق النتائج المالية المتميزة من خلال استراتيجيات مبتكرة"
     }
   ]
 
@@ -75,11 +84,9 @@ export default function Portfolio() {
           className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 xl:gap-12 max-w-6xl mx-auto mb-12 sm:mb-16 lg:mb-20"
         >
           {portfolioItems.map((item, index) => (
-            <a 
+            <Link 
               key={item.id}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`/work/${item.slug}`}
               className="portfolio-card group bg-gray-800/20 backdrop-blur-sm rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl hover:shadow-wakkelni-cyan/20 transition-all duration-700 border border-wakkelni-purple/10 hover:border-wakkelni-cyan/40 cursor-pointer animate-fade-in-up transform-gpu"
               style={{ 
                 transformStyle: 'preserve-3d',
@@ -129,7 +136,7 @@ export default function Portfolio() {
 
               {/* Hover glow effect */}
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-wakkelni-purple/5 to-wakkelni-cyan/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
-            </a>
+            </Link>
           ))}
         </div>
 
