@@ -57,12 +57,14 @@ export default function Features() {
                 </div>
                 
                 <div className="pt-8 animate-fade-in-up">
-                  <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-10 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center">
-                    اخرج من المنافسة خلال 7 أيام
-                    <svg className="w-6 h-6 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </button>
+                  <a href="/apply">
+                    <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-10 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center">
+                      اخرج من المنافسة خلال 7 أيام
+                      <svg className="w-6 h-6 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -96,9 +98,11 @@ export default function Features() {
               </p>
             </div>
             
-            <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-cyan/30 w-full">
-              أطلق صفحتك خلال 7 أيام
-            </button>
+            <a href="/apply">
+              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-cyan/30 w-full">
+                أطلق صفحتك خلال 7 أيام
+              </button>
+            </a>
           </div>
 
           {/* Left Column - Conversion Optimization */}
@@ -128,9 +132,11 @@ export default function Features() {
               </p>
             </div>
             
-            <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-purple/30 w-full">
-              احصل على صفحتك الآن
-            </button>
+            <a href="/apply">
+              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-purple/30 w-full">
+                احصل على صفحتك الآن
+              </button>
+            </a>
           </div>
         </div>
 
@@ -190,9 +196,11 @@ export default function Features() {
             </div>
 
             <div className="text-center mt-16">
-              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-                احصل على صفحتك خلال 7 أيام
-              </button>
+              <a href="/apply">
+                <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
+                  احصل على صفحتك خلال 7 أيام
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -313,9 +321,11 @@ export default function Features() {
             </div>
 
             <div className="text-center">
-              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-                احجز استشارة مجانية
-              </button>
+              <a href="/apply">
+                <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
+                  احجز استشارة مجانية
+                </button>
+              </a>
             </div>
           </div>
         </div>

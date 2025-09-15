@@ -101,9 +101,11 @@ export default function FAQ() {
             <p className="text-gray-300 mb-8 text-lg">
               احجز استشارة مجانية وسنجيب على جميع أسئلتك شخصيًا. بدون ضغط، مجرد إجابات صادقة حول كيف يمكننا مساعدة نشاطك في النمو.
             </p>
-            <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-              اسأل مباشرة
-            </button>
+            <a href="/apply">
+              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
+                اسأل مباشرة
+              </button>
+            </a>
           </div>
         </div>
       </div>

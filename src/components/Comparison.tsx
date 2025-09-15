@@ -79,10 +79,12 @@ export default function Comparison() {
             {/* Bottom CTA */}
             <div className="p-8 bg-gradient-to-r from-wakkelni-purple/10 to-wakkelni-cyan/10 border-t border-gray-700/50">
               <div className="text-center">
-                <button className="group bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center">
-                  أنا أختار وكّلني
-                  <ArrowRight className="mr-4 w-6 h-6 group-hover:-translate-x-1 transition-transform" />
-                </button>
+                <a href="/apply">
+                  <button className="group bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center">
+                    أنا أختار وكّلني
+                    <ArrowRight className="mr-4 w-6 h-6 group-hover:-translate-x-1 transition-transform" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>

@@ -61,9 +61,11 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-reverse space-x-4">
-            <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 shadow-lg">
-              ابدأ الآن
-            </button>
+            <a href="/apply">
+              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+                ابدأ الآن
+              </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -94,9 +96,11 @@ export default function Header() {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <button className="w-full bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-4 py-2 rounded-full font-medium transition-all duration-300">
-                  ابدأ الآن
-                </button>
+                <a href="/apply">
+                  <button className="w-full bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-4 py-2 rounded-full font-medium transition-all duration-300">
+                    ابدأ الآن
+                  </button>
+                </a>
               </div>
           </div>
         </div>

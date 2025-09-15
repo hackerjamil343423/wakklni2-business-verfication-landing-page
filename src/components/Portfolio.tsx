@@ -41,6 +41,15 @@ export default function Portfolio() {
       image: "/images/funnel-service.png",
       fullImage: "/images/portfolio/سيستم طباعة الأموال - تحقيق 12 ألف دولار خلال 3 أشهر.png",
       description: "نظام متقدم لبناء القمع التسويقي وتحقيق النتائج المالية المتميزة من خلال استراتيجيات مبتكرة"
+    },
+    {
+      id: 5,
+      title: "صفحة لمنتج بطاقة nfc",
+      slug: "nfc-card-product",
+      categories: ["صفحة منتج", "تقنية NFC", "تسويق رقمي"],
+      image: "/images/nfc-card-portfolio.png",
+      fullImage: "/images/nfc-card-portfolio.png",
+      description: "صفحة منتج متخصصة لعرض وبيع بطاقات NFC الذكية مع واجهة مستخدم حديثة وتجربة تسوق متميزة"
     }
   ]
 
