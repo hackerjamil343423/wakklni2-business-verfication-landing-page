@@ -4,10 +4,10 @@ import { ArrowLeft, Check } from 'lucide-react'
 
 export default function FinalCTA() {
   const benefits = [
-    "تحليل مجاني لصفحتك الحالية",
-    "استراتيجية تحسين مخصصة",
-    "تقدير دقيق للوقت والتكلفة",
-    "بدون التزامات—مجرد محادثة صادقة"
+    "استشارة مجانية لتقييم فكرة مشروعك",
+    "دراسة جدوى مبدئية وخطة التنفيذ",
+    "تقدير دقيق للوقت والتكلفة المطلوبة",
+    "بدون التزامات—مجرد محادثة استكشافية"
   ]
 
   return (
@@ -16,15 +16,15 @@ export default function FinalCTA() {
         <div className="max-w-5xl mx-auto text-center">
           {/* Main Title */}
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 sm:mb-8 leading-tight">
-            جاهز لصفحة هبوط تحوّل الزوار 
+            جاهز لتحويل فكرتك إلى
             <span className="block bg-gradient-to-r from-wakkelni-cyan to-wakkelni-purple bg-clip-text text-transparent">
-              إلى عملاء؟
+              شركة ناشئة مرخصة؟
             </span>
           </h2>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-8 sm:mb-12 leading-relaxed">
-            احجز استشارة مجانية لمناقشة مشروعك والحصول على خطة مخصصة—خلال 7 أيام فقط.
+            احجز استشارة مجانية لمناقشة فكرة مشروعك والحصول على خطة تنفيذ مخصصة—خلال 60 يوم فقط.
           </p>
 
           {/* Benefits */}
@@ -42,10 +42,10 @@ export default function FinalCTA() {
           {/* Urgency */}
           <div className="bg-wakkelni-purple/10 rounded-3xl p-8 border border-wakkelni-purple/30 mb-12">
             <p className="text-wakkelni-cyan text-xl font-bold mb-2">
-              مشاريع محدودة شهريًا
+              عدد محدود من العملاء شهريًا
             </p>
             <p className="text-gray-300 text-lg">
-              نقبل 5 مشاريع شهريًا فقط لضمان الجودة والسرعة.
+              نتعامل مع عدد محدود من المشاريع شهريًا لضمان الجودة العالية والمتابعة الشخصية.
             </p>
           </div>
 

@@ -24,9 +24,32 @@
       "Bash(npm run build:*)",
       "Bash(git add:*)",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Read(/d:\\2025\\Pictures\\لقطات الشاشة/**)",
+      "Bash(cp:*)",
+      "Bash(git log:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_take_screenshot",
+      "WebFetch(domain:i.postimg.cc)",
+      "Bash(taskkill:*)",
+      "Bash(curl:*)",
+      "Bash(npx kill-port:*)",
+      "mcp__playwright__browser_console_messages",
+      "mcp__shadcn__search_items_in_registries",
+      "mcp__shadcn__get_item_examples_from_registries",
+      "mcp__exa__web_search_exa",
+      "Bash(git remote set-url:*)"
     ],
     "deny": [],
-    "ask": []
-  }
+    "ask": [],
+    "additionalDirectories": [
+      "d:\\2025\\Pictures\\لقطات الشاشة"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
 }

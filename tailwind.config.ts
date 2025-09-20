@@ -34,6 +34,13 @@ const config: Config = {
       animation: {
         'fade-in-up': 'fadeInUp 0.5s ease-out',
         'fade-in': 'fadeIn 0.5s ease-out',
+        'slide-in-right': 'slideInRight 0.6s ease-out',
+        'slide-in-left': 'slideInLeft 0.6s ease-out',
+        'gradient-shift': 'gradientShift 3s ease-in-out infinite',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+        'marquee-right': 'marqueeRight 20s linear infinite',
+        'marquee-left': 'marqueeLeft 20s linear infinite',
+        'marquee-seamless': 'marqueeSeamless 30s linear infinite',
       },
       keyframes: {
         fadeInUp: {
@@ -52,6 +59,66 @@ const config: Config = {
           },
           '100%': {
             opacity: '1',
+          },
+        },
+        slideInRight: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateX(30px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateX(0)',
+          },
+        },
+        slideInLeft: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateX(-30px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateX(0)',
+          },
+        },
+        gradientShift: {
+          '0%, 100%': {
+            backgroundPosition: '0% 50%',
+          },
+          '50%': {
+            backgroundPosition: '100% 50%',
+          },
+        },
+        pulseGlow: {
+          '0%, 100%': {
+            boxShadow: '0 0 20px rgba(95, 48, 235, 0.3)',
+          },
+          '50%': {
+            boxShadow: '0 0 40px rgba(0, 224, 255, 0.5)',
+          },
+        },
+        marqueeRight: {
+          '0%': {
+            transform: 'translateX(0%)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          },
+        },
+        marqueeLeft: {
+          '0%': {
+            transform: 'translateX(-100%)',
+          },
+          '100%': {
+            transform: 'translateX(0%)',
+          },
+        },
+        marqueeSeamless: {
+          '0%': {
+            transform: 'translateX(0%)',
+          },
+          '100%': {
+            transform: 'translateX(-25%)',
           },
         },
       },

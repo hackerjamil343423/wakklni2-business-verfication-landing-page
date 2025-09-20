@@ -95,6 +95,12 @@ html {
   background: var(--wakkelni-purple);
 }
 
+/* Marquee mask gradient */
+.mask-gradient {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

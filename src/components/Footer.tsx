@@ -18,17 +18,17 @@ export default function Footer() {
   }
 
   const quickLinks = [
-    { label: 'About', href: '#about' },
-    { label: 'Services', href: '#services' },
-    { label: 'Portfolio', href: '#portfolio' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'الرئيسية', href: '#home' },
+    { label: 'المشكلة', href: '#features' },
+    { label: 'خطوات العمل', href: '#process' },
+    { label: 'الأسعار', href: '#pricing' },
   ]
 
   const services = [
-    { label: 'Web Development', href: '#' },
-    { label: 'Mobile Apps', href: '#' },
-    { label: 'UI/UX Design', href: '#' },
-    { label: 'E-commerce', href: '#' },
+    { label: 'استخراج رخصة ريادة الأعمال', href: '#' },
+    { label: 'تأسيس الشركات الناشئة', href: '#' },
+    { label: 'إجراءات الإقامة', href: '#' },
+    { label: 'الاستشارات القانونية', href: '#' },
   ]
 
   const resources = [

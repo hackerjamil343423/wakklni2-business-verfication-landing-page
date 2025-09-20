@@ -9,321 +9,346 @@ export default function Features() {
         {/* First Row - Single Column Problems Section */}
         <div className="mb-24 lg:mb-32">
           <div className="max-w-7xl mx-auto">
-            <div className="text-right mb-12 sm:mb-16">
+            <div className="text-center mb-12 sm:mb-16">
               <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight animate-fade-in-up">
-                لماذا تحتاج صفحة هبوط احترافية الآن؟
+                المشكلة
               </h2>
+              <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
+                معظم رواد الأعمال يفشلون في تحويل فكرتهم إلى شركة ناشئة رسمية بسبب تعقيدات الإجراءات والقوانين في السعودية. الوقت والجهد يضيعان بينما المنافسون ينطلقون بسرعة
+              </p>
             </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 xl:gap-20 items-start">
-              {/* Right Side - Image Box */}
-              <div className="order-1 lg:order-2">
-                <div className="bg-gray-900/30 backdrop-blur-sm rounded-3xl p-10 border border-wakkelni-purple/20 overflow-hidden shadow-2xl animate-fade-in">
-                  <img 
-                    src="/images/problem-1.png" 
-                    alt="تحليل المنافسة" 
-                    className="w-full h-auto object-contain"
-                  />
-                </div>
-              </div>
+            {/* Problems Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 max-w-7xl mx-auto">
 
-              {/* Left Side - Content */}
-              <div className="order-2 lg:order-1 space-y-8 text-right">
-                <div className="space-y-8 text-gray-300 leading-relaxed text-xl animate-fade-in" style={{ lineHeight: '2' }}>
-                  <p className="text-white text-2xl">
-                    المنافسة اليوم في أعلى مستوياتها أي شخص ممكن يبني كورس أو صفحة عادية ويكتب لها محتوى لكن العملاء صاروا أذكى وانحرقوا كثير من منتجات ضعيفة
-                  </p>
-                  
-                  <p className="text-white text-2xl">
-                    حتى لو سمعتك ممتازة أي خطأ صغير أو لمسة غير احترافية ممكن تفشل بالبيع
-                  </p>
-                  
-                  <p className="text-white text-2xl">
-                    تكلفة الحصول على العميل اليوم صارت أعلى من أي وقت مضى كل نقرة وزائر وعميل محتمل مهم جدًا
-                  </p>
-                  
-                  <p className="text-white text-2xl">
-                    لما تطلب من شخص يحجز مكالمة أو يشتري منتج بسعر عالي لازم تعطيه الثقة وتخليه يشوفك كخيار وحيد في السوق
-                  </p>
-                  
-                  <div className="bg-gray-800/40 rounded-2xl p-8 mt-12">
-                    <p className="font-bold text-wakkelni-cyan text-2xl mb-4">
-                      نحن نحقق ذلك عبر:
-                    </p>
-                    <p className="text-white text-xl">
-                      محتوى تسويقي يلمس عقل وقلب العميل، تصميم احترافي مميز وضمان جودة يمنع أي غلطة صغيرة تضيّع عليك الصفقة
-                    </p>
+              {/* Problem 1 */}
+              <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up">
+                <div className="mb-6">
+                  <div className="w-16 h-16 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                    <span className="text-3xl font-bold text-wakkelni-cyan">1</span>
                   </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 text-center">صعوبة استخراج الرخصة</h3>
+                  <p className="text-gray-300 leading-relaxed text-lg text-center">
+                    صعوبة استخراج رخصة ريادة الأعمال وتحويل المشروع إلى كيان رسمي يعرقل البداية بشكل كبير.
+                  </p>
                 </div>
-                
-                <div className="pt-8 animate-fade-in-up">
-                  <a href="/apply">
-                    <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-10 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40 inline-flex items-center">
-                      اخرج من المنافسة خلال 7 أيام
-                      <svg className="w-6 h-6 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </button>
-                  </a>
+              </div>
+
+              {/* Problem 2 */}
+              <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up">
+                <div className="mb-6">
+                  <div className="w-16 h-16 bg-wakkelni-cyan/20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                    <span className="text-3xl font-bold text-wakkelni-purple">2</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 text-center">المعاملات القانونية المعقدة</h3>
+                  <p className="text-gray-300 leading-relaxed text-lg text-center">
+                    المعاملات القانونية والإدارية كثيرة ومعقدة، ما بين وزارة التجارة، الغرف التجارية، والجهات الرسمية الأخرى.
+                  </p>
+                </div>
+              </div>
+
+              {/* Problem 3 */}
+              <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up">
+                <div className="mb-6">
+                  <div className="w-16 h-16 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                    <span className="text-3xl font-bold text-wakkelni-cyan">3</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 text-center">قلة الخبرة والتأخير</h3>
+                  <p className="text-gray-300 leading-relaxed text-lg text-center">
+                    قلة الخبرة في التعامل مع الإجراءات تؤدي لتأخير المشروع لأسابيع أو أشهر، مما يكلف الوقت والمال.
+                  </p>
+                </div>
+              </div>
+
+              {/* Problem 4 */}
+              <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up">
+                <div className="mb-6">
+                  <div className="w-16 h-16 bg-wakkelni-cyan/20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                    <span className="text-3xl font-bold text-wakkelni-purple">4</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 text-center">عدم معرفة المزايا</h3>
+                  <p className="text-gray-300 leading-relaxed text-lg text-center">
+                    حتى بعد تجهيز الشركة، الكثير لا يعرف كيفية الاستفادة من المزايا الرسمية والامتيازات الحكومية المرتبطة برخصة ريادة الأعمال والإقامة.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        {/* Additional Problem Cards Row */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-7xl mx-auto mb-24 lg:mb-32">
-          
-          {/* Right Column - Launch Problems */}
-          <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 lg:p-10 xl:p-12 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up">
-            {/* Image */}
-            <div className="mb-10 bg-gray-900/30 rounded-3xl p-6 overflow-hidden">
-              <img 
-                src="/images/problem-2.png" 
-                alt="مشاكل الإطلاق" 
-                className="w-full h-auto object-contain"
-              />
-            </div>
-            
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 sm:mb-8 text-right leading-tight">
-              الإطلاقات: إما نجاح ساحق أو فشل كامل
-            </h3>
-            
-            <div className="space-y-6 text-gray-300 leading-relaxed text-lg mb-10 text-right" style={{ lineHeight: '1.9' }}>
-              <p className="text-white text-xl">
-                الإطلاق هو اللحظة الفاصلة بين شهور ضاعت بلا مقابل أو أيام تحقق فيها أرباح كبيرة
-              </p>
-              <p className="text-white text-xl">
-                لو المنتج ممتاز والإعلانات قوية لكن صفحة الهبوط فيها سيئة كل الإطلاق سيفشل
-              </p>
-            </div>
-            
-            <a href="/apply">
-              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-cyan/30 w-full">
-                أطلق صفحتك خلال 7 أيام
-              </button>
-            </a>
-          </div>
-
-          {/* Left Column - Conversion Optimization */}
-          <div className="problem-card bg-gray-800/30 backdrop-blur-sm rounded-3xl p-10 lg:p-12 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up">
-            {/* Image */}
-            <div className="mb-10 bg-gray-900/30 rounded-3xl p-6 overflow-hidden">
-              <img 
-                src="/images/problem-3.png" 
-                alt="تحسين التحويلات" 
-                className="w-full h-auto object-contain"
-              />
-            </div>
-            
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 sm:mb-8 text-right leading-tight">
-              كل يوم يمر بدون تحسين = خسارة أموال
-            </h3>
-            
-            <div className="space-y-6 text-gray-300 leading-relaxed text-lg mb-10 text-right" style={{ lineHeight: '1.9' }}>
-              <p className="text-white text-xl">
-                كل يوم صفحتك غير محسنة، أنت تخسر عملاء ومبيعات.
-              </p>
-              <p className="text-white text-xl">
-                مجرد تعديل ذكي في صفحة الهبوط رفع أرباح عملائنا أكثر من 44%.
-              </p>
-              <p className="text-wakkelni-cyan text-xl font-bold">
-                بدل ما تحبس نفسك شهور وتكتب وتبني لوحدك نحن نسلّم لك صفحة احترافية خلال 7 أيام فقط تجلب لك: مكالمات – مبيعات – عملاء.
-              </p>
-            </div>
-            
-            <a href="/apply">
-              <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl hover:shadow-wakkelni-purple/30 w-full">
-                احصل على صفحتك الآن
-              </button>
-            </a>
-          </div>
-        </div>
-
-        {/* Four Elements Section */}
-        <div className="mb-24 lg:mb-32">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-20">
-              <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up">
-                نحن نحقق نتائج لعملائنا من خلال التركيز على أربعة عناصر
-              </h2>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Element 1 */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="w-20 h-20 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-wakkelni-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">البحث والتحليل</h3>
-                <p className="text-gray-300 leading-relaxed">نغوص عميقًا في السوق، ندرس منافسيك والإطلاقات ناجحة ونحدد محفزات الشراء المخفية.</p>
-              </div>
-
-              {/* Element 2 */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="w-20 h-20 bg-wakkelni-cyan/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-wakkelni-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">المحتوى (Copy)</h3>
-                <p className="text-gray-300 leading-relaxed">نكتب كلمات تعكس رغبات ومخاوف جمهورك، بصوت علامتك التجارية، بدون مبالغة أو ضغط، بل بنص واضح و مقنع</p>
-              </div>
-
-              {/* Element 3 */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="w-20 h-20 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-wakkelni-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">التصميم</h3>
-                <p className="text-gray-300 leading-relaxed">تصميم مميز + سرعة تحميل + مناسب للموبايل أولًا، كل عنصر يوضع استراتيجيًا لبناء الثقة ودفع العميل للشراء</p>
-              </div>
-
-              {/* Element 4 */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="w-20 h-20 bg-wakkelni-cyan/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-wakkelni-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">السرعة</h3>
-                <p className="text-gray-300 leading-relaxed">خلال 7 يوم فقط تحصل على صفحتك كاملة بدون مماطلة ولا أعذار</p>
-              </div>
-            </div>
-
+            {/* Call to Action */}
             <div className="text-center mt-16">
+              <p className="text-xl sm:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed">
+                لا تضيع وقتك، اكتشف كيف يمكنك تجاوز التعقيدات وتحويل فكرتك إلى شركة ناشئة رسمية وجاهزة للعمل بسرعة
+              </p>
               <a href="/apply">
                 <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-                  احصل على صفحتك خلال 7 أيام
+                  تواصل معنا الآن
                 </button>
               </a>
             </div>
           </div>
         </div>
 
+        {/* Opportunities Section */}
+        <div className="mb-24 lg:mb-32">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-20">
+              <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 leading-tight animate-fade-in-up">
+                الفرص في السعودية
+              </h2>
+              <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
+                السوق السعودي مليء بالفرص للمبتكرين ورواد الأعمال الذين يعرفون كيف يستغلونها:
+              </p>
+            </div>
+
+            {/* Opportunities Boxes */}
+            <div className="space-y-12">
+              {/* Box 1 - Investment Growth (Content Right, Image Left) */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-10 lg:p-16 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up hover:animate-pulse-glow">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                  {/* Content - Right Side */}
+                  <div className="lg:order-2 animate-slide-in-right" role="article" aria-labelledby="investment-heading">
+                    <div className="w-24 h-24 bg-gradient-to-br from-wakkelni-purple/30 to-wakkelni-cyan/30 rounded-full flex items-center justify-center mb-8 shadow-lg shadow-wakkelni-purple/20 hover:shadow-wakkelni-cyan/40 transition-all duration-500 hover:scale-110" aria-hidden="true">
+                      <svg className="w-12 h-12 text-wakkelni-cyan drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                      </svg>
+                    </div>
+                    <h3 id="investment-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-wakkelni-purple via-wakkelni-cyan to-wakkelni-purple bg-clip-text text-transparent mb-6 lg:mb-8 leading-tight text-right bg-300% animate-gradient-shift">
+                      الاستثمارات الضخمة
+                    </h3>
+                    <p className="text-gray-300 leading-relaxed text-base sm:text-lg lg:text-xl mb-4 lg:mb-6 text-right">
+                      السعودية تستثمر بقوة في المشاريع الناشئة وريادة الأعمال، حيث بلغت الاستثمارات أكثر من 5.2 مليار ريال في 2023، مع تركيز خاص على التقنية المالية والتكنولوجيا المتقدمة.
+                    </p>
+                    <div className="flex items-center justify-end gap-3 text-xs sm:text-sm text-gray-400">
+                      <span className="text-right">البيانات من تقرير الاستثمار الجريء السعودي 2023</span>
+                      <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Image - Left Side */}
+                  <div className="lg:order-1 relative group animate-slide-in-left" role="img" aria-labelledby="chart-description">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-wakkelni-purple/20 to-wakkelni-cyan/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-xl" aria-hidden="true"></div>
+                    <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-black/40 border border-wakkelni-purple/10 hover:border-wakkelni-cyan/30 transition-all duration-500">
+                      <img
+                        src="/images/saudi-investment-chart.avif"
+                        alt="خمس سنوات من تطور التمويل الجريء في المملكة العربية السعودية - يُظهر نمو الاستثمارات من 116 مليون ريال في 2019 إلى 1.383 مليار ريال في 2023"
+                        className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                        role="img"
+                        aria-describedby="chart-description"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" aria-hidden="true"></div>
+                    </div>
+                    <div id="chart-description" className="sr-only">
+                      رسم بياني يوضح تطور الاستثمارات الجريئة في المملكة العربية السعودية من 2019 إلى 2023. يظهر نمو مستمر في قيمة الاستثمارات من 116 مليون ريال سعودي في 2019 إلى 1.383 مليار ريال في 2023، مع تذبذب في عدد الصفقات.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Box 2 - Vision 2030 (Content Left, Image Right) */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-10 lg:p-16 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up hover:animate-pulse-glow">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                  {/* Content - Left Side */}
+                  <div className="lg:order-1 animate-slide-in-left" role="article" aria-labelledby="vision-heading">
+                    <div className="w-24 h-24 bg-gradient-to-br from-wakkelni-cyan/30 to-wakkelni-purple/30 rounded-full flex items-center justify-center mb-8 shadow-lg shadow-wakkelni-cyan/20 hover:shadow-wakkelni-purple/40 transition-all duration-500 hover:scale-110" aria-hidden="true">
+                      <svg className="w-12 h-12 text-wakkelni-purple drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                      </svg>
+                    </div>
+                    <h3 id="vision-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-wakkelni-cyan via-wakkelni-purple to-wakkelni-cyan bg-clip-text text-transparent mb-6 lg:mb-8 leading-tight text-right bg-300% animate-gradient-shift">
+                      رؤية 2030 والتحول الرقمي
+                    </h3>
+                    <p className="text-gray-300 leading-relaxed text-base sm:text-lg lg:text-xl mb-4 lg:mb-6 text-right">
+                      الحكومة السعودية تدعم بشكل مباشر رؤية 2030 لتطوير الاقتصاد وتنويع مصادر الدخل، مما يخلق بيئة مثالية للشركات الناشئة للنمو والابتكار بسرعة.
+                    </p>
+                    <div className="flex items-center justify-end gap-3 text-xs sm:text-sm text-gray-400">
+                      <span className="text-right">البيانات من برنامج رؤية المملكة 2030</span>
+                      <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Vision 2030 Image - Right Side */}
+                  <div className="lg:order-2 relative group animate-slide-in-right" role="img" aria-labelledby="vision-chart-description">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-wakkelni-cyan/20 to-wakkelni-purple/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-xl" aria-hidden="true"></div>
+                    <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-black/40 border border-wakkelni-cyan/10 hover:border-wakkelni-purple/30 transition-all duration-500">
+                      <img
+                        src="/images/vision-2030-chart.png"
+                        alt="رؤية المملكة العربية السعودية 2030 والتحول الرقمي - يُظهر الأهداف الاستراتيجية والمبادرات الرقمية لتنويع الاقتصاد السعودي"
+                        className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                        role="img"
+                        aria-describedby="vision-chart-description"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" aria-hidden="true"></div>
+                    </div>
+                    <div id="vision-chart-description" className="sr-only">
+                      مخطط يوضح رؤية المملكة العربية السعودية 2030 ومبادرات التحول الرقمي، يُظهر الأهداف الاستراتيجية لتنويع الاقتصاد وتطوير القطاعات غير النفطية ودعم ريادة الأعمال والابتكار.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Box 3 - AI Investment Fund (Content Right, Image Left) */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-10 lg:p-16 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up hover:animate-pulse-glow">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                  {/* Content - Right Side */}
+                  <div className="lg:order-2 animate-slide-in-right" role="article" aria-labelledby="ai-fund-heading">
+                    <div className="w-24 h-24 bg-gradient-to-br from-wakkelni-purple/30 to-wakkelni-cyan/30 rounded-full flex items-center justify-center mb-8 shadow-lg shadow-wakkelni-purple/20 hover:shadow-wakkelni-cyan/40 transition-all duration-500 hover:scale-110" aria-hidden="true">
+                      <svg className="w-12 h-12 text-wakkelni-cyan drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <h3 id="ai-fund-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-wakkelni-purple via-wakkelni-cyan to-wakkelni-purple bg-clip-text text-transparent mb-6 lg:mb-8 leading-tight text-right bg-300% animate-gradient-shift">
+                      صندوق الذكاء الاصطناعي
+                    </h3>
+                    <p className="text-gray-300 leading-relaxed text-base sm:text-lg lg:text-xl mb-4 lg:mb-6 text-right">
+                      تم تأسيس صندوق استثماري بقيمة 100 مليار دولار لدعم الابتكار في الذكاء الاصطناعي والتكنولوجيا الحديثة، مما يفتح المجال أمام الشركات الواعدة للحصول على تمويل وجولات استثمارية قوية.
+                    </p>
+                    <div className="flex items-center justify-end gap-3 text-xs sm:text-sm text-gray-400">
+                      <span className="text-right">مبادرة الصندوق السعودي للاستثمار في الذكاء الاصطناعي</span>
+                      <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* AI Fund Image - Left Side */}
+                  <div className="lg:order-1 relative group animate-slide-in-left" role="img" aria-labelledby="ai-fund-description">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-wakkelni-purple/20 to-wakkelni-cyan/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-xl" aria-hidden="true"></div>
+                    <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-black/40 border border-wakkelni-purple/10 hover:border-wakkelni-cyan/30 transition-all duration-500">
+                      <img
+                        src="/images/ai-fund-chart.png"
+                        alt="صندوق الذكاء الاصطناعي السعودي - يُظهر الاستثمار بقيمة 100 مليار دولار في تطوير تقنيات الذكاء الاصطناعي والتكنولوجيا المتقدمة لدعم الشركات الناشئة"
+                        className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                        role="img"
+                        aria-describedby="ai-fund-description"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" aria-hidden="true"></div>
+                    </div>
+                    <div id="ai-fund-description" className="sr-only">
+                      مخطط يوضح صندوق الاستثمار في الذكاء الاصطناعي السعودي بقيمة 100 مليار دولار، يُظهر القطاعات المستهدفة للاستثمار وآليات دعم الشركات الناشئة والمشاريع التقنية المتقدمة.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Box 4 - Growing Opportunities (Content Left, Image Right) */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-10 lg:p-16 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up hover:animate-pulse-glow">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                  {/* Content - Left Side */}
+                  <div className="lg:order-1 animate-slide-in-left" role="article" aria-labelledby="growth-heading">
+                    <div className="w-24 h-24 bg-gradient-to-br from-wakkelni-cyan/30 to-wakkelni-purple/30 rounded-full flex items-center justify-center mb-8 shadow-lg shadow-wakkelni-cyan/20 hover:shadow-wakkelni-purple/40 transition-all duration-500 hover:scale-110" aria-hidden="true">
+                      <svg className="w-12 h-12 text-wakkelni-purple drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                      </svg>
+                    </div>
+                    <h3 id="growth-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-wakkelni-cyan via-wakkelni-purple to-wakkelni-cyan bg-clip-text text-transparent mb-6 lg:mb-8 leading-tight text-right bg-300% animate-gradient-shift">
+                      فرص نمو سريعة
+                    </h3>
+                    <p className="text-gray-300 leading-relaxed text-base sm:text-lg lg:text-xl mb-4 lg:mb-6 text-right">
+                      القطاع يشهد نمواً سريعاً، مع ظهور فرص واضحة في المدن الصغيرة والنائية، وخاصة في مجالات التكنولوجيا، السياحة والطاقة المتجددة، والخدمات اللوجستية.
+                    </p>
+                    <div className="flex items-center justify-end gap-3 text-xs sm:text-sm text-gray-400">
+                      <span className="text-right">بيانات من وزارة الاستثمار السعودية</span>
+                      <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Growth Opportunities Image - Right Side */}
+                  <div className="lg:order-2 relative group animate-slide-in-right" role="img" aria-labelledby="growth-description">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-wakkelni-cyan/20 to-wakkelni-purple/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-xl" aria-hidden="true"></div>
+                    <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-black/40 border border-wakkelni-cyan/10 hover:border-wakkelni-purple/30 transition-all duration-500">
+                      <img
+                        src="/images/growth-opportunities-chart.png"
+                        alt="فرص النمو السريع في السعودية - يُظهر القطاعات الناشئة والمدن الصغيرة ذات الإمكانيات العالية في التكنولوجيا والسياحة والطاقة المتجددة"
+                        className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+                        loading="lazy"
+                        role="img"
+                        aria-describedby="growth-description"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" aria-hidden="true"></div>
+                    </div>
+                    <div id="growth-description" className="sr-only">
+                      مخطط يوضح فرص النمو السريع في القطاعات المختلفة بالمملكة العربية السعودية، يُظهر الإمكانيات في المدن الصغيرة والنائية خاصة في مجالات التكنولوجيا، السياحة، الطاقة المتجددة والخدمات اللوجستية.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <p className="text-xl sm:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed font-bold">
+                ابدأ الآن واستغل هذه الفرص قبل منافسيك
+              </p>
+              <a href="/apply">
+                <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
+                  تواصل معنا الآن
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
         {/* Why Us Section */}
         <div className="mb-24 lg:mb-32">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
-              <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up">
-                لماذا تختار صفحات هبوط وكلني؟
+              <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up">
+                لماذا تختار خدماتنا؟
               </h2>
+              <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
+                نحن نقدم خدمة شاملة ومتكاملة لإطلاق شركتك الناشئة بأقل جهد ووقت ممكن
+              </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
-              {/* Card 1 - سجل حافل بالنجاحات */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/1.png" 
-                    alt="سجل حافل بالنجاحات" 
-                    className="w-32 h-32 object-contain"
-                  />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 sm:mb-16">
+              {/* Card 1 - خبرة مثبتة */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up text-center">
+                <div className="w-20 h-20 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-wakkelni-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">سجل حافل بالنجاحات</h3>
-                <p className="text-gray-300 leading-relaxed text-right text-lg">على مدار سنوات، قدمنا نتائج استثنائية لعدد من أكبر الشركات في مجال الأعمال الرقمية. لا يهم حجم المشروع أو ضيق الوقت وكلني دائمًا تفي بالوعد.</p>
+                <h3 className="text-2xl font-bold text-white mb-6">خبرة مثبتة</h3>
+                <p className="text-gray-300 leading-relaxed text-center">ساعدنا أكثر من 100+ رائد أعمال في تأسيس شركاتهم الناشئة والحصول على التراخيص المطلوبة بنجاح</p>
               </div>
 
-              {/* Card 2 - مهووسون بالنتائج */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/2.png" 
-                    alt="مهووسون بالنتائج" 
-                    className="w-32 h-32 object-contain"
-                  />
+              {/* Card 2 - سرعة في التنفيذ */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up text-center">
+                <div className="w-20 h-20 bg-wakkelni-cyan/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-wakkelni-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-6">مهووسون بالنتائج</h3>
-                <p className="text-gray-300 leading-relaxed text-right text-lg">على عكس معظم وكالات تصميم الصفحات نحن لا نهتم فقط ببناء صفحة "جميلة" أو "مثالية". نحن مهووسون بالنتائج. كل قرار وكل خطوة نأخذها تكون بحساب ودقة بهدف زيادة المبيعات</p>
+                <h3 className="text-2xl font-bold text-white mb-6">سرعة في التنفيذ</h3>
+                <p className="text-gray-300 leading-relaxed text-center">نكمل جميع الإجراءات والمعاملات خلال 60 يوم كحد أقصى، بدلاً من الأشهر التي قد تستغرقها بمفردك</p>
               </div>
 
-              {/* Card 3 - السرعة */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/3.png" 
-                    alt="السرعة" 
-                    className="w-32 h-32 object-contain"
-                  />
+              {/* Card 3 - دعم شامل */}
+              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl animate-fade-in-up text-center">
+                <div className="w-20 h-20 bg-wakkelni-purple/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-wakkelni-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM12 18a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V18.75A.75.75 0 0112 18z" />
+                  </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-6">السرعة</h3>
-                <p className="text-gray-300 leading-relaxed text-right text-lg">السرعة هي أكبر قيمة لدينا. في البزنس إذا لم تتحرك بسرعة ستخسر نحن ندرك ذلك، ولهذا نسلم صفحتك خلال 7 أيام كحد أقصى بدون نقاش</p>
+                <h3 className="text-2xl font-bold text-white mb-6">دعم شامل</h3>
+                <p className="text-gray-300 leading-relaxed text-center">نتكفل بجميع المعاملات من البداية للنهاية - من الاستشارة الأولى حتى الحصول على الرخصة والإقامة</p>
               </div>
 
-              {/* Card 4 - تواصل عالي المستوى */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/4.png" 
-                    alt="تواصل عالي المستوى" 
-                    className="w-32 h-32 object-contain"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-6">تواصل عالي المستوى</h3>
-                <p className="text-gray-300 leading-relaxed text-right text-lg">تواصل مستمر على مدار الساعة. نرد غالبًا خلال 30 دقيقة فقط، حتى نقلل وقت الانتظار ونبقيك دائمًا على اطلاع كل قرار يتم أخذه يكون بالتنسيق معك وبما يتماشى مع رؤيتك</p>
-              </div>
-
-              {/* Card 5 - كتابة إعلانية عالية التحويل */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/5.png" 
-                    alt="كتابة إعلانية عالية التحويل" 
-                    className="w-32 h-32 object-contain"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">كتابة إعلانية عالية التحويل</h3>
-                <p className="text-gray-300 leading-relaxed text-right">سواء احتجت صفحة مبيعات طويلة أو صفحة تسجيل بسيطة نحن نكتب لك نصوصًا مقنعة ومحسّنة للتحويل بأعلى مستوى نصوص تتماشى مع هوية علامتك التجارية وفي نفس الوقت تحقق نتائج مذهلة</p>
-              </div>
-
-              {/* Card 6 - تعديلات بلا حدود */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/6.png" 
-                    alt="تعديلات بلا حدود" 
-                    className="w-32 h-32 object-contain"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">تعديلات بلا حدود</h3>
-                <p className="text-gray-300 leading-relaxed text-right">على عكس وكالات اخرى تضع قيود ورسوم إضافية للتعديلات نحن نعمل معك حتى تصل للرضا التام لا حدود ولا تكاليف إضافية رؤيتك تستحق أن تُنفذ بدقة، وسنستمر بالعمل حتى نحققها معك</p>
-              </div>
-
-              {/* Card 7 - تصاميم راقية */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-6 sm:p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-purple/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/7.png" 
-                    alt="تصاميم راقية" 
-                    className="w-32 h-32 object-contain"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">تصاميم راقية</h3>
-                <p className="text-gray-300 leading-relaxed text-right">نمزج بين الجماليات المميزة والتصميمات المبنية على استراتيجيات التحويل. صفحاتنا لا تبدو محترفة فقط، بل تُبنى بعناية لتقود الزائر خطوة بخطوة نحو عرضك، وتبني ثقة فورية مع علامتك. كل عنصر يوضع في مكانه بدقة ليزيد التفاعل والثقة</p>
-              </div>
-
-              {/* Card 8 - صفحات محسّنة للتحويل */}
-              <div className="bg-gray-800/30 backdrop-blur-sm rounded-3xl p-8 border border-wakkelni-purple/20 hover:border-wakkelni-cyan/40 transition-all duration-700 shadow-2xl hover:shadow-wakkelni-cyan/20 animate-fade-in-up text-center">
-                <div className="mb-6 flex justify-center">
-                  <img 
-                    src="/images/8.png" 
-                    alt="صفحات محسّنة للتحويل" 
-                    className="w-32 h-32 object-contain"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">صفحات محسّنة للتحويل (CRO Optimized)</h3>
-                <p className="text-gray-300 leading-relaxed text-right">كل صفحة تُبنى على مبادئ مجربة من خلال تحليل أكثر من 100 إطلاق ناجح. نعمل على التفاصيل الصغيرة التي تبني الثقة نضبط كل شيء ليحوّل الزائر إلى عميل. نحن لا نخمن نحن نطبق تكتيكات مجربةتحقق نتائج دائما مع عملائنا</p>
-              </div>
             </div>
 
             <div className="text-center">
               <a href="/apply">
                 <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-                  احجز استشارة مجانية
+                  احصل على استشارة مجانية
                 </button>
               </a>
             </div>

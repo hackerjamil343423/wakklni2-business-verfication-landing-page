@@ -1,55 +1,43 @@
 'use client'
 
-import { Calendar, FileText, Palette, Rocket } from 'lucide-react'
+import { Building, FileText, Award } from 'lucide-react'
 
 export default function Process() {
   const phases = [
     {
-      phase: "المرحلة 1",
-      day: "اليوم 1",
-      icon: <Calendar className="w-8 h-8" />,
-      title: "التعارف والإعداد",
-      description: "نبدأ بالشيء الوحيد الذي نطلبه منك - 10 دقائق لتعبئة فورم التعارف. بعد اكتماله، نبدأ البحث الأولي ونحدد هيكل صفحتك:",
+      phase: "الخطوة 1",
+      day: "الاحتضان",
+      icon: <Building className="w-8 h-8" />,
+      title: "توصية من حاضنة أعمال",
+      description: "نبدأ بالحصول على توصية من حاضنة أعمال معتمدة لدعم طلبك وتقوية موقفك أمام الجهات الحكومية",
       deliverables: [
-        "تعبئة فورم التعارف (10 دقائق).",
-        "بدء البحث وتحديد هيكل الصفحة.",
-        "إرسال الهيكل للمراجعة."
+        "دراسة فكرة مشروعك وتقييمها",
+        "إعداد ملف المشروع والخطة التنفيذية",
+        "الحصول على التوصية الرسمية من الحاضنة"
       ]
     },
     {
-      phase: "المرحلة 2", 
-      day: "اليوم 2-3",
+      phase: "الخطوة 2",
+      day: "25 يوم",
       icon: <FileText className="w-8 h-8" />,
-      title: "البحث وإنشاء المحتوى",
-      description: "خلال يومين تكتمل عملية البحث المكثف وترسل لك أول مسودة للمحتوى للموافقة عليها",
+      title: "تقديم الطلب عند وزارة الاستثمار",
+      description: "نتولى تقديم طلبك لدى وزارة الاستثمار مع جميع المستندات المطلوبة ومتابعة الطلب حتى الموافقة",
       deliverables: [
-        "إكمال وثيقة البحث.",
-        "إرسال مسودة #1 للكابي لاعتمادك.",
-        "بدء فريق التصميم."
+        "إعداد جميع المستندات المطلوبة",
+        "تقديم الطلب الرسمي للوزارة",
+        "متابعة دورية للطلب والرد على الاستفسارات"
       ]
     },
     {
-      phase: "المرحلة 3",
-      day: "اليوم 4-6", 
-      icon: <Palette className="w-8 h-8" />,
-      title: "التصميم والتطوير",
-      description: "شاهد صفحتك تنبض بالحياة ونحن نحول المحتوى المقنع إلى تصميم مذهل محسن للتحويل",
+      phase: "الخطوة 3",
+      day: "15 يوم",
+      icon: <Award className="w-8 h-8" />,
+      title: "ترخيص الشركة والإقامات",
+      description: "نكمل عملية ترخيص الشركة وإصدار السجل التجاري وترتيب الإقامات والمنصات الإلكترونية",
       deliverables: [
-        "بناء صفحة مخصّصة كاملة.",
-        "تحسين الموبايل.",
-        "دمج عناصر التحويل والكابي."
-      ]
-    },
-    {
-      phase: "المرحلة 4",
-      day: "اليوم 7",
-      icon: <Rocket className="w-8 h-8" />,
-      title: "اللمسة الأخيرة والإطلاق",
-      description: "نضع اللمسات الأخيرة على كل عنصر ونستعد للإطلاق",
-      deliverables: [
-        "مراجعة نهائية وتعديلات سريعة.",
-        "تسليم الصفحة مع دليل الإطلاق.",
-        "دعم مجاني بعد التسليم."
+        "استخراج رخصة السجل التجاري",
+        "ترتيب الإقامات للشركاء والموظفين",
+        "إعداد المنصات الإلكترونية وحسابات البنوك"
       ]
     }
   ]
@@ -61,11 +49,14 @@ export default function Process() {
         {/* Section Header */}
         <div className="text-center mb-16 lg:mb-20">
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            خطواتنا في تسليم صفحة الهبوط الخاصة بك
+            3 خطوات فقط لبناء شركة ناشئة مرخّصة
             <span className="block bg-gradient-to-r from-wakkelni-cyan to-wakkelni-purple bg-clip-text text-transparent">
-              خلال 7 أيام
+              خلال أقل من 60 يوم
             </span>
           </h2>
+          <p className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+            عملية مبسطة ومدروسة لتحويل فكرتك إلى شركة ناشئة رسمية ومرخصة في السعودية
+          </p>
         </div>
 
         {/* Process Timeline */}
@@ -134,7 +125,7 @@ export default function Process() {
         <div className="text-center mt-16">
           <a href="/apply">
             <button className="bg-gradient-to-r from-wakkelni-purple to-wakkelni-cyan hover:from-wakkelni-cyan hover:to-wakkelni-purple text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-wakkelni-cyan/40">
-              ابدأ عملية الـ7 أيام الآن
+              ابدأ رحلة تأسيس شركتك الآن
             </button>
           </a>
         </div>
