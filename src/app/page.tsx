@@ -4,6 +4,7 @@ import Features from '@/components/Features'
 import Solutions from '@/components/Solutions'
 import Programs from '@/components/Programs'
 import Process from '@/components/Process'
+import PricingTableDemo from '@/components/PricingTableDemo'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Solutions />
       <Programs />
       <Process />
+      <PricingTableDemo />
     </main>
   )
 }
