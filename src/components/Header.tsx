@@ -23,7 +23,6 @@ export default function Header() {
     { label: 'حلول', href: '#solutions' },
     { label: 'البرامج', href: '#programs' },
     { label: 'خطوات العمل', href: '#process' },
-    { label: 'الأسعار', href: '#pricing' },
   ]
 
   return (
